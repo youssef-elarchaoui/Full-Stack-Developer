@@ -34,6 +34,35 @@ export const hero = {
   ],
 };
 
+
+export const whyWebsite = {
+  eyebrow: "L'enjeu",
+  title: "Pourquoi votre entreprise a besoin d'un site web ?",
+  description:
+    "Vos clients vous cherchent déjà en ligne. Voici ce qu'un site bien pensé change concrètement pour votre activité.",
+  items: [
+    {
+      icon: "Search",
+      title: "Plus de visibilité",
+      description: "Soyez visible sur Google et permettez à vos clients de vous trouver facilement.",
+    },
+    {
+      icon: "Clock",
+      title: "Disponible 24h/24",
+      description: "Votre entreprise reste accessible à tout moment grâce à votre site web.",
+    },
+    {
+      icon: "Sparkles",
+      title: "Image professionnelle",
+      description: "Renforcez la confiance de vos clients avec un design moderne.",
+    },
+    {
+      icon: "MessageSquare",
+      title: "Plus de demandes",
+      description: "Recevez davantage d'appels, de messages et de demandes de devis.",
+    },
+  ],
+};
 export const services = [
   {
     icon: "Zap",
@@ -72,6 +101,31 @@ export const services = [
     price: "Sur devis", // ✅ إضافة السعر
   },
 ];
+export const pricing = {
+  eyebrow: "Tarifs",
+  title: "Des solutions adaptées à votre budget",
+  description: "Chaque projet est différent. Voici un point de départ — un devis précis vous sera toujours proposé avant de commencer.",
+  plans: [
+    {
+      title: "Landing Page",
+      price: "À partir de 1 000 MAD",
+      featured: false,
+      features: ["1 page, design sur-mesure", "Optimisée pour mobile", "Mise en ligne rapide"],
+    },
+    {
+      title: "Site Vitrine",
+      price: "À partir de 2 500 MAD",
+      featured: true,
+      features: ["Jusqu'à 5 pages", "Design responsive complet", "Référencement de base (SEO)"],
+    },
+    {
+      title: "Application Web",
+      price: "Sur devis",
+      featured: false,
+      features: ["Fonctionnalités personnalisées", "Base de données & connexions", "Architecture évolutive"],
+    },
+  ],
+};
 
 export const whyChooseMe = [
   {

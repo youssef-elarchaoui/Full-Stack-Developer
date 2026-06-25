@@ -8,6 +8,8 @@ import Testimonials from "./components/Testimonials";
 import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Pricing from "./components/Pricing";
+import WhyWebsite from "./components/WhyWebsite";
 
 export default function App() {
   return (
@@ -15,9 +17,11 @@ export default function App() {
       <Navbar />
       <main>
         <Hero />
+        <WhyWebsite />
         <Services />
         <WhyChooseMe />
         <Portfolio />
+        <Pricing />
         <Process />
         <Testimonials />
         <FAQ />
